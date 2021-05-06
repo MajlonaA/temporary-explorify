@@ -125,7 +125,7 @@ const Wrapper = styled.main`
 `
 
 export default SingleProductPage
-
+  
 
 
 

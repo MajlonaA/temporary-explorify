@@ -36,7 +36,7 @@ const AddToCart = ({ product }) => {
     <Wrapper>
       <div className='colors'>
         <span> Gift colors : </span>
-        <div>
+        <div>  
           {colors.map((color, index) => {
             return (
               <button
