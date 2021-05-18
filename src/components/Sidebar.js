@@ -8,6 +8,7 @@ import styled from 'styled-components'
 import CartButtons from './CartButtons'
 import { useUserContext } from '../context/user_context'
 
+//this section of the code implements the sidebar section
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useProductsContext()
   const {myUser} = useUserContext()

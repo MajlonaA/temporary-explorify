@@ -4,6 +4,8 @@ import { useCartContext } from '../context/cart_context'
 import { Link } from 'react-router-dom'
 import { CartContent, PageHero } from '../components'
 
+//this section of the code implements the cart section of the webpage
+
 const CartPage = () => {
   const {cart} = useCartContext();
 

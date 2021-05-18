@@ -15,6 +15,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import aboutImg from "../assets/picture_2.jpg";
 
+//this section of the code implements the packages
+
 const HawaiiPackage = () => {
   return (
     <div>

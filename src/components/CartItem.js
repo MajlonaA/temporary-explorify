@@ -5,6 +5,8 @@ import AmountButtons from './AmountButtons'
 import { FaTrash } from 'react-icons/fa'
 import { useCartContext } from '../context/cart_context'
 
+// This section of the code implements the cart item component
+
 const CartItem = ({id, image, name, color, price, amount}) => {
   const {removeItem, toggleAmount} = useCartContext();
   const increase =() => {

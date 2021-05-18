@@ -5,6 +5,9 @@ import styled from 'styled-components'
 import Error from './Error'
 import Loading from './Loading'
 import Product from './Product'
+
+// This section of the code implements the featured section of the packages on the homepage
+
 const FeaturedProducts = () => {
   const {
     products_loading: loading,

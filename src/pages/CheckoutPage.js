@@ -6,6 +6,8 @@ import { PageHero, StripeCheckout } from '../components'
 import { useCartContext } from '../context/cart_context'
 import { Link } from 'react-router-dom'
 
+
+//this section of the code implements the checkout functionality 
 const CheckoutPage = () => {
   const {cart} = useCartContext()
   return (

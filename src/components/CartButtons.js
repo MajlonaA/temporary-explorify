@@ -6,6 +6,7 @@ import { useProductsContext } from '../context/products_context'
 import { useCartContext } from '../context/cart_context'
 import { useUserContext } from '../context/user_context'
 
+// This section of the code implements the cart button component
 const CartButtons = () => {
   const { closeSidebar } = useProductsContext()
   const {total_items, clearCart} = useCartContext()

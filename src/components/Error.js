@@ -1,4 +1,7 @@
 import React from 'react'
+
+// Error will be invoked when there is an error
+
 const Error = () => {
   return (
   <div className= 'section section-center text-center'>

@@ -15,6 +15,8 @@ import {
 } from '../components'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+
+//this section of the code implements the single products page  
 const SingleProductPage = () => {
   const { id } = useParams()
   const history = useHistory()

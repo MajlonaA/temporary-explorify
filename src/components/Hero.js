@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import heroBcg from '../assets/picture_1.jpg'
 import heroBcg2 from '../assets/travel.jpg'
 
+// This section of the code implements the very beginning of the home screen
+
 const Hero = () => {
   return (
     <Wrapper className='section-center'>

@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { formatPrice } from '../utils/helpers'
 import { Link } from 'react-router-dom'
+
+// This section of the code implements the list view component
+
 const ListView = ({ products }) => {
   return (
     <Wrapper>

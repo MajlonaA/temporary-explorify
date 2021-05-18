@@ -2,6 +2,9 @@ import React from 'react'
 import { useFilterContext } from '../context/filter_context'
 import GridView from './GridView'
 import ListView from './ListView'
+
+// This section of the code handles product lists based based on user input and 
+// displays corresponding message if no product is matched with the search result
 const ProductList = () => {
   const { filtered_products: products, grid_view } = useFilterContext()
 

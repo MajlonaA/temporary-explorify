@@ -6,6 +6,8 @@ import CartColumns from './CartColumns'
 import CartItem from './CartItem'
 import CartTotals from './CartTotals'
 
+// This section of the code implements the cart content component
+
 const CartContent = () => {
   const {cart, clearCart} = useCartContext()
   return ( <Wrapper className ='section section-center'>

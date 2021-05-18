@@ -10,6 +10,8 @@ import { useUserContext } from '../context/user_context'
 import { IdealBankElement } from '@stripe/react-stripe-js'
 import { Cart } from '../pages'
 
+// This section of the code implements the navigation section
+
 const Nav = () => {
   const {openSidebar} = useProductsContext()
   const {myUser} = useUserContext()

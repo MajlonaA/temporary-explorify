@@ -17,6 +17,9 @@ import Stars from './Stars'
 import CartContent from './CarContent'
 import PageHero from './PageHero'
 import StripeCheckout from './StripeCheckout'
+
+// index page of Explorify
+
 export {
   FeaturedProducts,
   Navbar,

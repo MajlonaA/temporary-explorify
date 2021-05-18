@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { FaPlus, FaMinus } from 'react-icons/fa'
 
+// This section of the code implements the amout button component
+
 const AmountButtons = ({ increase, decrease, amount }) => {
   return (
     <Wrapper className='amount-btns'>

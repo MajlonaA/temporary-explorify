@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+
+// This section of the code handles the displaying of 
+// product images based on the search result
+
 const ProductImages = ({ images = [[]] }) => {
   const [main, setMain] = useState(images[0])
   return (

@@ -2,6 +2,8 @@ import React from 'react'
 import { useFilterContext } from '../context/filter_context'
 import { BsFillGridFill, BsList } from 'react-icons/bs'
 import styled from 'styled-components'
+
+// this section of the code handles the sorting functionality based on user input such as price, name
 const Sort = () => {
   const {
     filtered_products: products,

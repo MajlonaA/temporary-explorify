@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import { formatPrice } from '../utils/helpers'
 import { FaSearch } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+
+// This section of the code displays products with the corresponding price
+
 const Product = ({ image, name, price, id }) => {
   return (
     <Wrapper>

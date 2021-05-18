@@ -15,6 +15,8 @@ import { useHistory } from 'react-router-dom'
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 
+// this section of the code implements the payment section using Stripe 
+
 const promise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY)
 
 const CheckoutForm = () => {
