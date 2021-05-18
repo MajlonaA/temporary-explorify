@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 // This section of the code implements the footer section
-
+ 
 const Footer = () => {
   return <Wrapper>
     <h5>

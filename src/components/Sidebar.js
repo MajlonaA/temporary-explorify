@@ -15,7 +15,7 @@ const Sidebar = () => {
 
   const isOpen = false
   return (
-    <SidebarContainer>
+    <SidebarContainer> 
       <aside className= {`${isSidebarOpen ? 'sidebar show-sidebar' : 
       'sidebar'}`}>
         <div className= 'sidebar-header'>

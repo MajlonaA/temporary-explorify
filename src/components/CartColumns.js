@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// This section of the code implements the cart column component
+// This section of the code implements the cart column component 
 
 const CartColumns = () => {
   return <Wrapper>

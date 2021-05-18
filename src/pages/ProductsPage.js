@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Filters, ProductList, Sort, PageHero } from '../components'
 
-//this section of the code implements the products page 
+//this section of the code implements the products page  
 const ProductsPage = () => {
   return (
     <main>

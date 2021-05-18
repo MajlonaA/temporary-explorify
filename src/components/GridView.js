@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Product from './Product'
 
-// This section of the code implements the grid view component
+// This section of the code implements the grid view component 
 
 const GridView = ({ products }) => {
   return (

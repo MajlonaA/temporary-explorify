@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const ListView = ({ products }) => {
   return (
-    <Wrapper>
+    <Wrapper> 
       {products.map((product) => {
         const { id, image, name, price, description } = product
         return (

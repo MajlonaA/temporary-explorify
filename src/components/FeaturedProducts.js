@@ -18,7 +18,7 @@ const FeaturedProducts = () => {
     return <Loading />
   }
   if (error) {
-    return <Error />
+    return <Error /> 
   }
   return (
     <Wrapper className='section'>

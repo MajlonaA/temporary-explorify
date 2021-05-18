@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useCartContext } from '../context/cart_context'
 import { useUserContext } from '../context/user_context'
 import { formatPrice } from '../utils/helpers'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' 
 
 // This section of the code implements the cart total component
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// This section of the code implements the contact section
+// This section of the code implements the contact section 
 
 const Contact = () => {
   return <Wrapper>

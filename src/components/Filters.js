@@ -4,7 +4,7 @@ import { useFilterContext } from '../context/filter_context'
 import { getUniqueValues, formatPrice } from '../utils/helpers'
 import { FaCheck } from 'react-icons/fa'
 
-// This section of the code implements the filter component
+// This section of the code implements the filter component 
 
 const Filters = () => {
   const {

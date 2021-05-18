@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { services } from '../utils/constants'
 
-//this section of the code implements the services screen
+//this section of the code implements the services screen 
 const Services = () => {
   return <Wrapper>
     <div className= 'section-center'>

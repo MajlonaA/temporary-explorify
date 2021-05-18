@@ -67,7 +67,7 @@ const createPaymentIntent = async () => {
 
 useEffect(() => {
   createPaymentIntent()
-  // eslint-disable-next-line
+  // eslint-disable-next-line 
 }, [])
 
 const handleChange = async (event) => {

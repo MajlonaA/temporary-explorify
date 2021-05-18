@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { PageHero } from '../components'
 import aboutImg from '../assets/picture_2.jpg'
 
-// about section of the webpage
+// about section of the webpage 
 const AboutPage = () => {
   return (
   <main>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaPlus, FaMinus } from 'react-icons/fa'
+import { FaPlus, FaMinus } from 'react-icons/fa' 
 
 // This section of the code implements the amout button component
 
