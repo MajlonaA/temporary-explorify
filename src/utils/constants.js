@@ -43,7 +43,7 @@ export const services = [
 ]
 
 export const products_url =
-  'https://explorifyapi.netlify.app/.netlify/functions/PackageApi'
+  'https://explorifyapi.netlify.app/.netlify/functions/airtable'
 
 export const single_product_url = `https://explorifyapi.netlify.app/.netlify/functions/products?id=
 `
